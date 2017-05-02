@@ -1,3 +1,4 @@
+require("offline-plugin/runtime").install();
 require("./main.css");
 var logoPath = require("./logo.svg");
 var Elm = require("./App.elm");

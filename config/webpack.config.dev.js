@@ -126,6 +126,7 @@ module.exports = {
 
     new HotModuleReplacementPlugin(),
 
-    new NamedModulesPlugin()
+    new NamedModulesPlugin(),
+    new OfflinePlugin()
   ]
 };
